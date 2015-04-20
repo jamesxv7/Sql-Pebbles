@@ -5,3 +5,6 @@ SELECT SERVERPROPERTY('Edition')
 
 -- MySQL
 SHOW VARIABLES LIKE "%version%";
+
+-- PostgreSQL
+SELECT version();
